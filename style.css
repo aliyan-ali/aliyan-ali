@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+}
+.bg {
+    background-image: url(bg.jpg);
+    background-origin: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: -30px;
+    left: -30px;
+    width: 110%;
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text {
+    font-size: 50px;
+    color: white;
+}
